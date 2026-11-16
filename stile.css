@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body {
+	font-family: sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 100%;
+	height: 170px;
+	text-align: center;
+	background-color: #000e2d;
+	padding-top: 20px;
+}
+
+#logo {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#menu-sx {
+	float: left;
+	padding-left: 0px;
+	font-size: 24px; /* sovrascrivo rigo 6 */
+	font-weight: bold;
+	text-align: left;
+	width: 20%;
+	padding-top: 20px;
+}
+
+#menu-sx ul {
+	margin-top: 0px;
+	padding-left: 2px;
+	color: #230075;
+}
+
+#menu-sx ul li {
+	list-style: none;
+	padding: 4px;
+	margin-top: 0px;
+}
+
+ 
+#primo_piano {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	float: left;
+	padding-top: 20px;
+}
+
+#titolo {
+	font-weight: bold;
+	font-size: 32px; /* sovrascrivo rigo 6 */
+	text-align: left;
+}
+
+#testo_primopiano {
+	text-align: justify;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#foto_primopiano {
+	padding-top: 15px;
+	text-align: center;
+}
+
+#foto_primopiano img {
+	width: 80%;
+}
+
+#altre_notizie {
+	float: right;
+	padding-left: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	width: 20%;
+	padding-top: 20px;
+}
+
+#altre_notizie ul {
+	margin-top: 0px;
+}
+
+#altre_notizie ul li {
+	list-style: none;
+	margin-top: 0px;
+	padding: 4px;
+}
+
+#footer {
+	height: 76px;
+	clear: both;
+	background-color: #000e2d;
+	color: white;
+	
+}
+
+#contatti {
+	width: 50%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 26px;
+	text-align: center;
+}
+
+#footer a:link {
+	color: white;
+}
+
+.carrello:hover {
+    background-color: #0056b3; /* #2980b9 */
+  }
+
+#table {
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	/* padding: 16px 10px 10px 10px; */
+}
+
+table {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+}
+
+td {
+	text-align: left;
+	padding-left: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	#menu-sx {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#menu-sx ul li { 
+		display: inline; /* voci del menù in orizzontale */
+		padding-left: 3%; 
+		padding-right: 3%; 
+	}
+	
+	#primo_piano {
+		width: 70%;
+	}
+	
+	#altre_notizie {
+		width: 30%;
+	}
+	
+	td {
+	text-align: left;
+	padding-left: 40px;
+	}
+	
+}
